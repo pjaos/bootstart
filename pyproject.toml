@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bootstart"
+version = "1.0"
+description = ""
+authors = ["Paul Austen <pjaos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+p3lib = "^1.1.98"
+
+[tool.poetry.scripts]
+bootstart = "bootstart.bootstart:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
